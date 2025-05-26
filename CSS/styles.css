@@ -1,18 +1,15 @@
-Certainly! Here’s a CSS file that satisfies all your specifications and works seamlessly with the HTML file I provided earlier. It ensures structured styling, responsive design, color consistency, typography improvements, box model control, and debugging compatibility.
-/* Global Reset */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body Styling */
 body {
     font-family: Arial, sans-serif;
     background: linear-gradient(to right, #f4f4f4, #e2e2e2);
 }
 
-/* Header Styles */
 #welcomeBanner {
     background-color: blue;
     color: white;
@@ -20,12 +17,11 @@ body {
     text-align: center;
 }
 
-/* Inline Styling Example */
 h2[style] {
     color: red;
 }
 
-/* Navigation */
+
 nav {
     background: #007BFF;
     padding: 10px;
@@ -42,7 +38,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Table Styling */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -58,14 +54,13 @@ tr:nth-child(even) {
     background: #ddd;
 }
 
-/* Image Styles */
+
 img {
     width: 100px;
     height: 100px;
     border: 2px solid black;
 }
 
-/* Event Registration Form */
 form {
     background: white;
     padding: 20px;
@@ -85,7 +80,7 @@ input:focus, textarea:focus {
     outline: 2px solid #007BFF;
 }
 
-/* Buttons */
+
 button {
     background: #007BFF;
     color: white;
@@ -97,15 +92,12 @@ button {
 button:hover {
     background: #0056b3;
 }
-
-/* Multi-Column Layout */
 .news-section {
     column-count: 2;
     column-gap: 30px;
     column-rule: 1px solid gray;
 }
 
-/* Responsive Design */
 @media screen and (max-width: 768px) {
     nav {
         display: flex;
@@ -127,7 +119,7 @@ button:hover {
     }
 }
 
-/* Footer */
+
 footer {
     text-align: center;
     padding: 10px;
